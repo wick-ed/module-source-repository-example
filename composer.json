@@ -1,0 +1,17 @@
+{
+  "name": "magento/module-source-repository",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "description": "Add your description here",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magento\\ServiceBus\\": ""
+    }
+  },
+  "require": {
+    "magento/framework": "100.*"
+  }
+}
